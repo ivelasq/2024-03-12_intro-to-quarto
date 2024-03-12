@@ -1,0 +1,6 @@
+- source: index.qmd
+  quarto-pub:
+    - id: d921b773-9227-4a74-9a56-17b1e20b4e82
+      url: 'https://quartopub.com/sites/ivelasq/intro-to-quarto'
+    - id: 0cc228ab-b30c-4970-a085-d172472a0aa6
+      url: 'https://ivelasq.quarto.pub/intro-to-quarto-2024'

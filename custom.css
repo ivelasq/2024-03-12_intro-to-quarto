@@ -1,0 +1,94 @@
+/*-- scss:defaults --*/
+
+// fonts
+ @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+$font-family-sans-serif: "  Forum  ", sans-serif;
+$presentation-heading-color: #b87a22;
+$presentation-title-slide-text-align: "center";
+$code-block-font-size: 0.6em;
+$code-color: #5f5f5f;
+$presentation-h2-font-size: 1.4em;
+$link-color: #5A5A5A;
+
+/*-- scss:rules --*/
+
+.reveal .custom-title {
+  position: absolute;
+  font-size: 3em;
+  text-align: right;
+  right: 20px;
+  top: -200px;
+}
+
+.reveal .custom-author {
+  position: absolute;
+  font-size: 1.4em;
+  text-align: right;
+  right: 20px;
+  top: 300px;
+}
+
+.reveal .custom-twitter a {
+  position: absolute;
+  color: #81a2be;
+  font-size: 1.3em;
+  text-align: right;
+  right: 20px;
+  top: 470px;
+}
+
+.reveal .custom-url a {
+  position: absolute;
+  color: #81a2be;
+  font-size: 1.5em;
+  text-align: right;
+  right: 20px;
+  top: 570px;
+}
+
+details>summary {
+  font-size: 0.75em;
+}
+
+
+.medium {
+  font-size: 0.85em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.reveal .slide .in-out {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #E8E8E8;
+  font-family: $font-family-monospace;
+  font-size: 0.6em;
+}
+
+.reveal .slide .goal {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #ccddeb;
+}
+
+.title .subtitle .author {
+  text-align: center;
+  top: 0px !important;
+}
+
+.yellow {
+  color: $presentation-heading-color;
+}
+
+.green {
+  color: #798A29;
+}
